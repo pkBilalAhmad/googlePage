@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    overflow: auto;
+    
+}
+
+nav ,section, footer{
+
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+    
+}
+nav ul li{
+    float: left;
+    margin: 10px;
+    margin-top: 15px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    margin-top: 8px;
+    display: block;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+nav li button{
+    padding: 10px;
+    border: none;
+    background-color: #4386FA;
+    color: white;
+    border-radius: 3px;
+}
+section{
+    margin-top: 100px;
+    
+}
+
+.google , .input, .link, .btn{
+    margin: auto;
+
+    text-align: center;
+}
+.input input{
+    width: 585px;
+    border: 1px solid lightgray;
+    height: 37px;
+    padding-left: 20px; 
+}
+.btn button{
+    padding: 10px;
+    border: none;
+    background-color: #F3F3F3;
+    margin: 5px;
+    color: gray;
+    margin-top: 25px;
+    border-radius: 3px;
+}
+
+.btn button:hover{
+    border: 1px solid lightgray;
+    overflow: auto;
+        box-sizing: border-box;
+}
+.link{
+    margin-top: 15px;
+}
+.urdu{
+    text-decoration: none;
+}
+.urdu:hover{
+    text-decoration: underline;
+}
+article{
+    background-color: #F1F1F1;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+article ul li{
+    float: left;
+    padding: 15px;
+}
+article li a{
+    text-decoration: none;
+    color: gray;
+}
+.left{
+    float:  left;
+}
+.right{
+    float: right;
+}

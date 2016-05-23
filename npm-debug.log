@@ -1,0 +1,173 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update',
+1 verbose cli   '-g',
+1 verbose cli   'firebase-tools' ]
+2 info using npm@3.8.6
+3 info using node@v6.0.0
+4 silly mapToRegistry name firebase-tools
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'firebase-tools',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   name: 'firebase-tools',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/firebase-tools
+9 verbose request uri https://registry.npmjs.org/firebase-tools
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 5:50:51 PM
+12 verbose request id 814d0941674cdb9a
+13 verbose etag "1OT3G6T8PU9ZITGGUMQ7KVV9Z"
+14 http request GET https://registry.npmjs.org/firebase-tools
+15 http 200 https://registry.npmjs.org/firebase-tools
+16 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+16 verbose headers   etag: '"6MUZBSVZCR1IJAIO80ZDLFG5"',
+16 verbose headers   'content-type': 'application/json',
+16 verbose headers   'content-encoding': 'gzip',
+16 verbose headers   'cache-control': 'max-age=300',
+16 verbose headers   'content-length': '8538',
+16 verbose headers   'accept-ranges': 'bytes',
+16 verbose headers   date: 'Mon, 23 May 2016 12:50:51 GMT',
+16 verbose headers   via: '1.1 varnish',
+16 verbose headers   age: '140',
+16 verbose headers   connection: 'keep-alive',
+16 verbose headers   'x-served-by': 'cache-ams4138-AMS',
+16 verbose headers   'x-cache': 'HIT',
+16 verbose headers   'x-cache-hits': '1',
+16 verbose headers   'x-timer': 'S1464007851.420794,VS0,VE0',
+16 verbose headers   vary: 'Accept-Encoding' }
+17 silly get cb [ 200,
+17 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+17 silly get     etag: '"6MUZBSVZCR1IJAIO80ZDLFG5"',
+17 silly get     'content-type': 'application/json',
+17 silly get     'content-encoding': 'gzip',
+17 silly get     'cache-control': 'max-age=300',
+17 silly get     'content-length': '8538',
+17 silly get     'accept-ranges': 'bytes',
+17 silly get     date: 'Mon, 23 May 2016 12:50:51 GMT',
+17 silly get     via: '1.1 varnish',
+17 silly get     age: '140',
+17 silly get     connection: 'keep-alive',
+17 silly get     'x-served-by': 'cache-ams4138-AMS',
+17 silly get     'x-cache': 'HIT',
+17 silly get     'x-cache-hits': '1',
+17 silly get     'x-timer': 'S1464007851.420794,VS0,VE0',
+17 silly get     vary: 'Accept-Encoding' } ]
+18 verbose get saving firebase-tools to C:\Users\pkBilalAhmad\AppData\Roaming\npm-cache\registry.npmjs.org\firebase-tools\.cache.json
+19 verbose correctMkdir C:\Users\pkBilalAhmad\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 info outdated updating [ { dep:
+20 info outdated      Node {
+20 info outdated        id: 1,
+20 info outdated        package: [Object],
+20 info outdated        path: 'C:\\Users\\pkBilalAhmad\\AppData\\Roaming\\npm\\node_modules\\firebase-tools',
+20 info outdated        realpath: 'C:\\Users\\pkBilalAhmad\\AppData\\Roaming\\npm\\node_modules\\firebase-tools',
+20 info outdated        parent: [Object],
+20 info outdated        isLink: false,
+20 info outdated        children: [Object],
+20 info outdated        error: null,
+20 info outdated        loaded: false,
+20 info outdated        requiredBy: [],
+20 info outdated        requires: [Object],
+20 info outdated        missingDeps: {},
+20 info outdated        missingDevDeps: {},
+20 info outdated        userRequired: true,
+20 info outdated        existing: false },
+20 info outdated     depname: 'firebase-tools',
+20 info outdated     current: '2.2.1',
+20 info outdated     wanted: '3.0.0',
+20 info outdated     latest: '3.0.0',
+20 info outdated     req: 'latest',
+20 info outdated     what: 'firebase-tools@3.0.0' } ]
+21 silly loadCurrentTree Starting
+22 silly install loadCurrentTree
+23 silly install readGlobalPackageData
+24 silly fetchPackageMetaData firebase-tools@3.0.0
+25 silly fetchNamedPackageData firebase-tools
+26 silly mapToRegistry name firebase-tools
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'firebase-tools',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'firebase-tools',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/firebase-tools
+31 verbose get https://registry.npmjs.org/firebase-tools not expired, no request
+32 silly install normalizeTree
+33 silly loadCurrentTree Finishing
+34 silly loadIdealTree Starting
+35 silly install loadIdealTree
+36 silly cloneCurrentTree Starting
+37 silly install cloneCurrentTreeToIdealTree
+38 silly cloneCurrentTree Finishing
+39 silly loadShrinkwrap Starting
+40 silly install loadShrinkwrap
+41 silly loadShrinkwrap Finishing
+42 silly loadAllDepsIntoIdealTree Starting
+43 silly install loadAllDepsIntoIdealTree
+44 silly resolveWithNewModule firebase-tools@3.0.0 checking installable status
+45 silly cache add args [ 'firebase-tools@3.0.0', null ]
+46 verbose cache add spec firebase-tools@3.0.0
+47 silly cache add parsed spec Result {
+47 silly cache add   raw: 'firebase-tools@3.0.0',
+47 silly cache add   scope: null,
+47 silly cache add   name: 'firebase-tools',
+47 silly cache add   rawSpec: '3.0.0',
+47 silly cache add   spec: '3.0.0',
+47 silly cache add   type: 'version' }
+48 silly addNamed firebase-tools@3.0.0
+49 verbose addNamed "3.0.0" is a plain semver version for firebase-tools
+50 silly mapToRegistry name firebase-tools
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'firebase-tools',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   name: 'firebase-tools',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/firebase-tools
+55 verbose addNameVersion registry:https://registry.npmjs.org/firebase-tools not in flight; fetching
+56 verbose get https://registry.npmjs.org/firebase-tools not expired, no request
+57 silly mapToRegistry name firebase-tools
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry data Result {
+60 silly mapToRegistry   raw: 'firebase-tools',
+60 silly mapToRegistry   scope: null,
+60 silly mapToRegistry   name: 'firebase-tools',
+60 silly mapToRegistry   rawSpec: '',
+60 silly mapToRegistry   spec: 'latest',
+60 silly mapToRegistry   type: 'tag' }
+61 silly mapToRegistry uri https://registry.npmjs.org/firebase-tools
+62 verbose addRemoteTarball https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.0.tgz not in flight; adding
+63 verbose addRemoteTarball [ 'https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.0.tgz',
+63 verbose addRemoteTarball   'f518fb5c9a29cfc4360d6443469cba6e55f24c55' ]
+64 info retry fetch attempt 1 at 5:50:54 PM
+65 info attempt registry request try #1 at 5:50:54 PM
+66 http fetch GET https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.0.tgz
+67 http fetch 200 https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.0.tgz
+68 warn retry will retry, error on last attempt: Error: EBUSY: resource busy or locked, rename 'C:\Users\PKBILA~1\AppData\Local\Temp\npm-3876-c33390ab\registry.npmjs.org\firebase-tools\-\firebase-tools-3.0.0.tgz.2837719440' -> 'C:\Users\PKBILA~1\AppData\Local\Temp\npm-3876-c33390ab\registry.npmjs.org\firebase-tools\-\firebase-tools-3.0.0.tgz'
+69 verbose stack TypeError: tarball.destroy is not a function
+69 verbose stack     at WriteStreamAtomic.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-remote-tarball.js:97:15)
+69 verbose stack     at emitOne (events.js:101:20)
+69 verbose stack     at WriteStreamAtomic.emit (events.js:188:7)
+69 verbose stack     at WriteStreamAtomic.emit (C:\Program Files\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:60:34)
+69 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:89:19
+69 verbose stack     at FSReqWrap.oncomplete (fs.js:117:15)
+70 verbose cwd C:\Users\pkBilalAhmad\Desktop\google - Copy
+71 error Windows_NT 6.1.7601
+72 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update" "-g" "firebase-tools"
+73 error node v6.0.0
+74 error npm  v3.8.6
+75 error tarball.destroy is not a function
+76 error If you need help, you may report this error at:
+76 error     <https://github.com/npm/npm/issues>
+77 verbose exit [ 1, true ]
